@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace vendor\SystemAlert\src\SystemAlertServiceProvider;
+namespace nes360\SystemAlert;
 
 use Illuminate\Support\ServiceProvider;
 
