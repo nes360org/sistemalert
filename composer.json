@@ -11,8 +11,8 @@
     ],
 	"homepage": "https://nes360.org",
 	"support": {
-        "issues": "https://nes360.org",
-        "source": "https://nes360.org"
+        "issues": "https://github.com/nes360org/sistemalert.git",
+        "source": "https://github.com/nes360org/sistemalert.git"
     },
     "require": {
         "php": ">=7.2.5",
