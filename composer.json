@@ -40,7 +40,7 @@
         },
         "laravel": {
             "providers": [
-                "Nes360\\Sistemalert\\Providers\\SystemAlertServiceProvider"
+                "Nes360\\Sistemalert\\SystemAlertServiceProvider"
             ]
         }
     },
