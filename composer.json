@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nes360\\Sistemalert\\": "src/"
+            "nes360\\Sistemalert\\": "vendor/nes360/sistemalert/src/"
         }
     },
 	"config": {
