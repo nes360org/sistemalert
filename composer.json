@@ -22,10 +22,17 @@
         "illuminate/support": "^8.0",
         "illuminate/view": "^8.0"
     },
+	"require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
     "autoload": {
         "psr-4": {
             "Nes360\\Sistemalert\\": "src/"
         }
+    },
+	"config": {
+        "sort-packages": true
     },
     "extra": {
         "branch-alias": {
@@ -33,7 +40,7 @@
         },
         "laravel": {
             "providers": [
-                "Nes360\\Sistemalert\\SystemAlertServiceProvider"
+                "Nes360\\Sistemalert\\Providers\\SystemAlertServiceProvider"
             ]
         }
     },
