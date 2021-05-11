@@ -9,8 +9,8 @@
             "email": "ti@nes360.org"
         }
     ],
-	"homepage": "https://nes360.org",
-	"support": {
+    "homepage": "https://nes360.org",
+    "support": {
         "issues": "https://github.com/nes360org/sistemalert.git",
         "source": "https://github.com/nes360org/sistemalert.git"
     },
@@ -22,7 +22,7 @@
         "illuminate/support": "^8.0",
         "illuminate/view": "^8.0"
     },
-	"require-dev": {
+    "require-dev": {
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.3"
     },
@@ -31,10 +31,16 @@
             "Nes360\\Sistemalert\\": "src/"
         }
     },
-	"autoload-dev": {
+    "autoload-dev": {
         "psr-4": {
             "Nes360\\Sistemalert\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
     },
     "extra": {
         "branch-alias": {
@@ -46,13 +52,6 @@
             ]
         }
     },
-	"scripts": {
-		"post-autoload-dump": [
-			"Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-			"@php artisan package:discover"
-		]
-	},
     "minimum-stability": "dev",
     "prefer-stable": true
-	
 }
