@@ -37,6 +37,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Sistemalert\\SystemAlertServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
