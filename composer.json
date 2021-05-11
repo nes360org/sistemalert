@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nes360\\Sistemalert\\": "src/"
+            "Sistemalert\\": "src/"
         }
     },
 	"config": {
@@ -40,7 +40,7 @@
         },
         "laravel": {
             "providers": [
-                "Nes360\\Sistemalert\\SystemAlertServiceProvider"
+                "Sistemalert\\SystemAlertServiceProvider"
             ]
         }
     },
