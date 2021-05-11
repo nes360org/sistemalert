@@ -28,11 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "nes360\\Sistemalert\\": "vendor/nes360/sistemalert/src/"
+            "Nes360\\Sistemalert\\": "src/"
         }
     },
-	"config": {
-        "sort-packages": true
+	"autoload-dev": {
+        "psr-4": {
+            "Nes360\\Sistemalert\\Tests\\": "tests/"
+        }
     },
     "extra": {
         "branch-alias": {
@@ -40,7 +42,7 @@
         },
         "laravel": {
             "providers": [
-                "nes360\\sistemalert\\SystemAlertServiceProvider"
+                "Nes360\\Sistemalert\\SystemAlertServiceProvider"
             ]
         }
     },
